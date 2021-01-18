@@ -1,0 +1,341 @@
+﻿* {box-sizing: border-box;}
+}
+html {
+	 background-image: url('images/logo.jpg');
+}
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('images/logo.jpg');
+}
+.index{
+	top: 20%;
+	left: 35%;
+	position: absolute;
+}
+TABLE {
+	align: enter;
+ 
+   }
+   TD {
+  padding: 10px;
+   }
+h4 {
+    text-align:  center;
+	color: #190a54;
+	font-size: 30px;
+    font-weight: bold;
+   }
+.fon{
+	top: 20%;
+	left: 30%;
+	position: absolute;
+	background-color: white;
+	width: 40%;
+    height: auto;
+	
+    border-radius: 10px; /* Радиус скругления */
+	min-height: 40%;
+	padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc; 
+     letter-spacing: 1px; 
+		background: rgba(255, 255, 255, 0.9);
+}
+
+.button {
+    background-color: #046bb5; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 8px;
+}
+
+.reject {
+	background-color: red; 
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 8px;
+}
+
+.approve {
+	background-color: green; 
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 8px;
+}
+.example-1 .form-group{padding:1em;margin:1em}
+.example-1 input[type=file]{outline:0;opacity:0;pointer-events:none;user-select:none}
+.example-1 .label{width:120px;border:2px dashed grey;border-radius:5px;display:block;padding:1.2em;transition:border 300ms ease;cursor:pointer;text-align:center}
+.example-1 .label i{display:block;font-size:42px;padding-bottom:16px}
+.example-1 .label i,.example-1 .label .title{color:grey;transition:200ms color}
+.example-1 .label:hover{border:2px solid #000}
+.example-1 .label:hover i,.example-1 .label:hover .title{color:#000}
+
+.example-2 .btn-tertiary{color:#555;padding:0;line-height:40px;width:300px;margin:auto;display:block;border:2px solid #555}
+.example-2 .btn-tertiary:hover,.example-2 .btn-tertiary:focus{color:#888;border-color:#888}
+.example-2 .input-file{width:.1px;height:.1px;opacity:0;overflow:hidden;position:absolute;z-index:-1}
+.example-2 .input-file + .js-labelFile{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 10px;cursor:pointer}
+.example-2 .input-file + .js-labelFile .icon:before{content:"\f093"}
+.example-2 .input-file + .js-labelFile.has-file .icon:before{content:"\f00c";color:#5AAC7B}
+textarea {
+    color: initial;
+    display: inline-block;
+    background-color: white;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    font: 400 13.3333px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+    padding: 2px;
+}
+
+header {
+  background-color: #046bb5;
+  width: 100%;
+  height: 110px;
+}
+
+header .name{
+    margin-top: 0px;
+	float: left;
+
+}
+header .logo{
+    margin-top: 35px;
+	float: left;
+	color: white;
+}
+	
+
+a {
+    text-decoration: none;
+	font-size: 30px;
+    font-weight: bold;
+   }
+a:hover {
+    text-decoration: underline;
+   }
+a:visited {
+    color: #191970; /* Цвет посещенных ссылок */
+   }
+a:active {
+    color: #191970; /* Цвет активных ссылок */
+   }
+a.glo{
+ color: white;
+ padding: 10px 20px;
+ width:100px;
+ text-decoration:none;
+ text-align:center;
+ margin:30px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 18px tahoma;
+
+}
+a.glo:hover {
+background-position: 0 0;
+color:#fff;
+}
+
+nav {
+  float: right;
+  width: 250px;
+  height: 150px;
+}
+nav.name{
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+	width: 1000px;
+    margin: auto;
+	height: 100px;
+    top: 50%;
+	
+}
+@media screen and (max-width: 500px) {
+
+  nav {
+    float: none;
+  }
+}
+
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+
+header a {
+  float: righ;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 10px;
+}
+
+header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+header a:hover.logo {
+	text-decoration: none;
+  
+}
+
+
+
+body, html {
+	height: 100%;
+	font-family: Ubuntu-Regular, sans-serif;
+	h3 {color: blue} ;
+	
+
+ .btn-circle-download {
+  height: 48px;
+  width: 48px;
+  border-radius: 100%;
+  background: #E8EAED;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+.btn-circle-download:after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 200%;
+  height: 200%;
+  background-image: linear-gradient(115deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0));
+  transform: translate(-100%, -25%);
+}
+.btn-circle-download svg {
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+.btn-circle-download svg#border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  stroke: none;
+  stroke-dasharray: 144;
+  stroke-dashoffset: 144;
+  transition: all 0.9s linear;
+}
+.btn-circle-download svg#arrow {
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  stroke: #9098A9;
+  transition: all 0.2s ease;
+}
+.btn-circle-download svg#check {
+  position: absolute;
+  top: 17px;
+  left: 13px;
+  stroke: white;
+  transform: scale(0);
+}
+.btn-circle-download:hover {
+  background: rgba(34, 154, 255, 0.2);
+}
+.btn-circle-download:hover #arrow path,
+.btn-circle-download:hover #arrow polyline {
+  stroke: #229AFF;
+}
+.btn-circle-download.load {
+  background: rgba(34, 154, 255, 0.2);
+}
+.btn-circle-download.load #arrow path,
+.btn-circle-download.load #arrow polyline {
+  stroke: #229AFF;
+}
+.btn-circle-download.load #border {
+  stroke: #229AFF;
+  stroke-dasharray: 144;
+  stroke-dashoffset: 0;
+}
+.btn-circle-download.done {
+  background: #229AFF;
+  animation: rubberBand 0.8s;
+}
+.btn-circle-download.done:after {
+  transform: translate(50%, -25%);
+  transition: transform 0.3s ease;
+  transition-delay: 0.7s;
+}
+.btn-circle-download.done #border,
+.btn-circle-download.done #arrow {
+  display: none;
+}
+.btn-circle-download.done #check {
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-delay: 0.2s;
+}
+
+@keyframes rubberBand {
+  from {
+    transform: scale(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.15, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.15, 1);
+  }
+  50% {
+    transform: scale3d(1.1, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+.cntr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.styled-select select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   height: 34px;
+}
+
